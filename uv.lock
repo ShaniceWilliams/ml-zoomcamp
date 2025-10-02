@@ -1175,6 +1175,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pypalettes" },
     { name = "scikit-learn" },
     { name = "seaborn" },
 ]
@@ -1185,6 +1186,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.6" },
     { name = "numpy", specifier = ">=2.3.3" },
     { name = "pandas", specifier = ">=2.3.2" },
+    { name = "pypalettes", specifier = ">=0.1.6" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
     { name = "seaborn", specifier = ">=0.13.2" },
 ]
@@ -1615,6 +1617,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887", size = 4968631 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b", size = 1225217 },
+]
+
+[[package]]
+name = "pypalettes"
+version = "0.1.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e3/c5/c0b05f74220fd3dc824d5df3b4583631d79d534aa443721b66acf5ca1155/pypalettes-0.1.6.tar.gz", hash = "sha256:c11a2e0d45de7c4333c602e49209807e62d88226f2b777ad47f584256c5c0cbe", size = 14527437 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/81/a1/847f1e0a625130a2919f2b85e71c5196f5ba1a9e45cd77dffbf82492aa52/pypalettes-0.1.6-py3-none-any.whl", hash = "sha256:ad1ce4c79aa07afbb4fc1d91e4e914ab2d9a301d898c1241cdc8f8c0bffc64bf", size = 366236 },
 ]
 
 [[package]]
